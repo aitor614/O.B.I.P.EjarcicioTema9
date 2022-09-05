@@ -8,3 +8,6 @@ class Persona {
     String nombre;
     int numTelefono;
 }
+class Cliente extends Persona {
+    int credito;
+}
