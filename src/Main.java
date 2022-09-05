@@ -27,7 +27,7 @@ class Persona {
 }
 class Cliente extends Persona {
     int credito;
-
+int mio = 10;
     public Cliente() {
         System.out.println("Cliente: ");
     }
@@ -56,3 +56,6 @@ class Cliente extends Persona {
         return this.credito;
     }
 }
+class Trabajador extends Persona {
+    int salario;
+    }
